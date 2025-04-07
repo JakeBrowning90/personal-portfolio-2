@@ -1,25 +1,30 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { Routes, Route, Link, useNavigate } from "react-router";
+import HomeView from "./components/HomeView";
+import ProjectsView from "./components/ProjectsView";
+import ContactView from "./components/ContactView";
+import Error404View from "./components/Error404View";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>Placeholder title</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
+      <main>
+        <Routes>
+          {/* Home */}
+          <Route path="/" element={<HomeView />} />
+          {/* Projects */}
+          <Route path="/projects" element={<ProjectsView />} />
+          {/* Contact */}
+          <Route path="/contact" element={<ContactView />} />
+          {/* Error handler */}
+          <Route path="*" element={<Error404View />} />
+        </Routes>
+      </main>
     </>
   );
 }
