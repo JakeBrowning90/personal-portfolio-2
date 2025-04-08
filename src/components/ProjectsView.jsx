@@ -12,6 +12,7 @@ function ProjectsView(
   return (
     <div>
       <h1>Projects View</h1>
+      <p>List of project thumbnails</p>
     </div>
   );
 }

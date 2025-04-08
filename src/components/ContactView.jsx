@@ -9,9 +9,12 @@ function ContactView(
   // State declarations
   // Functions
   // Render
-  return <div>
-    <h1>Contact View</h1>
-  </div>;
+  return (
+    <div>
+      <h1>Contact View</h1>
+      <p>Links to social media</p>
+    </div>
+  );
 }
 
-export default ContactView
+export default ContactView;
