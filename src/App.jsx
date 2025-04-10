@@ -8,10 +8,16 @@ import Error404View from "./components/Error404View";
 function App() {
   return (
     <>
-      <nav className="navbar navbar-expand-md bg-dark">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+      <nav className="navbar navbar-expand-lg bg-dark">
+        <Link to="/" className="text-light">
+          Home
+        </Link>
+        <Link to="/projects" className="text-light">
+          Projects
+        </Link>
+        <Link to="/contact" className="text-light">
+          Contact
+        </Link>
       </nav>
       <main>
         <Routes>
