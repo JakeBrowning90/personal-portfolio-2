@@ -9,15 +9,17 @@ function App() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-dark">
-        <Link to="/" className="text-light">
-          Home
-        </Link>
-        <Link to="/projects" className="text-light">
-          Projects
-        </Link>
-        <Link to="/contact" className="text-light">
-          Contact
-        </Link>
+        <div className="container-fluid">
+          <Link to="/" className="nav-link text-light">
+            Home
+          </Link>
+          <Link to="/projects" className="nav-link text-light">
+            Projects
+          </Link>
+          <Link to="/contact" className="nav-link text-light">
+            Contact
+          </Link>
+        </div>
       </nav>
       <main>
         <Routes>

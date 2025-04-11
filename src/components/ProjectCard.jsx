@@ -6,7 +6,7 @@ function ProjectCard({ project }) {
   // Functions
   // Render
   return (
-    <div className="bg-secondary-subtle">
+    <div className="container bg-secondary-subtle my-2">
       <p>{project.title}</p>
       <p>{project.desc}</p>
       <a href={project.liveLink}>Live</a>
