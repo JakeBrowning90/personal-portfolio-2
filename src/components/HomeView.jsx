@@ -28,9 +28,9 @@ function HomeView(
         See more of my career experience on LinkedIn and my coding on GitHub.
       </p>
 
-      <p>Tech stack (Include icons?)</p>
+      <p>Tech stack</p>
       {techStackList.map((icon) => {
-        return <img src={icon} alt="" class="img-thumbnail"/>;
+        return <img src={icon} alt="" className="img-thumbnail"/>;
       })}
     </div>
   );

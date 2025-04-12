@@ -18,7 +18,7 @@ const projectsList = [
     repoLink: "https://github.com/JakeBrowning90/file-uploader",
     liveLink: "https://file-uploader-empty-sun-8023.fly.dev/",
     thumbnail: "img/fileUploaderThumbnail.jpg",
-    desc: "An file hosting app built using Express, Node.js, Prisma ORM, and Cloudinary. Authenticated users can upload files, sort them into custom folders, and search their collection by entry name.",
+    desc: "A file hosting app built using Express, Node.js, Prisma ORM, and Cloudinary. Authenticated users can upload files, sort them into custom folders, and search their collection by entry name.",
   },
   //   {
   //     title: "Micro Blog",

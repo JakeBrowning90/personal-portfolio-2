@@ -16,9 +16,13 @@ function ContactView(
     <div>
       <h1>Contact View</h1>
       <p>
-        Interested in working together? Please email me or connect on any of the listed platforms.
+        Interested in working together? Please email me or connect on any of the
+        listed platforms.
       </p>
-      <p>Email:</p>
+      <p>
+        Email:{" "}
+        <a href="mailto:jacobbrowning90@gmail.com">jacobbrowning90@gmail.com</a>
+      </p>
 
       <a href="https://www.linkedin.com/in/jacob-browning-4163346a/">
         <img src={linkedinIcon} alt="linkedin logo" />
