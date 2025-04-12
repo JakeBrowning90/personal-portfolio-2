@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import techStackList from "../techStackList";
-import bootstrapIcon from "../imgs/bootstrap.svg";
 // import apiSource
 
 function HomeView(
