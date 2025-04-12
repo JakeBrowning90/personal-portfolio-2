@@ -35,7 +35,7 @@ function HomeView(
 
       <p>Tech stack</p>
       {techStackList.map((icon) => {
-        return <img src={icon} alt="" className="mx-1 my-1 rounded" />;
+        return <img src={icon} alt="" className="mx-1 my-1 rounded" key={icon}/>;
       })}
     </div>
   );

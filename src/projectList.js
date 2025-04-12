@@ -7,6 +7,7 @@ const projectsList = [
   //     desc: "",
   //   },
   {
+    id: 0,
     title: "Board Game Library",
     repoLink: "https://github.com/JakeBrowning90/game-library-public",
     liveLink: "https://game-library-public.fly.dev/",
@@ -14,6 +15,7 @@ const projectsList = [
     desc: "A full-stack PERN app designed as a library for a tabletop gaming café. The JWT-authenticated private site manages the collection and user access, and the public site can search for games using multiple queries.",
   },
   {
+    id: 1,
     title: "File Uploader",
     repoLink: "https://github.com/JakeBrowning90/file-uploader",
     liveLink: "https://file-uploader-empty-sun-8023.fly.dev/",
@@ -28,6 +30,7 @@ const projectsList = [
   //     desc: "",
   //   },
   {
+    id: 2,
     title: "Music Collection",
     repoLink: "https://github.com/JakeBrowning90/inventory-application-2",
     liveLink: "https://inventory-application-2.fly.dev/",
@@ -35,6 +38,7 @@ const projectsList = [
     desc: "An inventory management app built using Express, Node.js, PostgreSQL, and Cloudinary. Authenticated users can create, update, and delete artists and albums from the database.",
   },
   {
+    id: 3,
     title: "Messaging App",
     repoLink: "https://github.com/JakeBrowning90/messaging-app-front",
     liveLink: "https://messaging-app.fly.dev/",
@@ -42,6 +46,7 @@ const projectsList = [
     desc: "A messaging tool built with the MERN stack (MongoDB, Express, React, Node.js). Create and customize a profile, add other users to your contacts list, and post text messages to your chat history.",
   },
   {
+    id: 4,
     title: "Map Game",
     repoLink: "https://github.com/JakeBrowning90/wheres-waldo-front",
     liveLink: "https://jakebrowningmapgame.netlify.app/",
@@ -49,6 +54,7 @@ const projectsList = [
     desc: "A quiz game built with the MERN stack. Correctly identify U.S. state capitals, reveal interesting trivia on each play session, and update the database by achieving a top 10 score.",
   },
   {
+    id: 5,
     title: "Blog API",
     repoLink: "https://github.com/JakeBrowning90/blog-public-frontend",
     liveLink: "https://blog-public-frontend.fly.dev/",
@@ -70,6 +76,7 @@ const projectsList = [
   //     desc: "A hidden-object game built with JavaScript and online scorekeeping in Cloud Firestore. Locate every item as fast as possible to join the scoreboard.",
   //   },
   {
+    id: 6,
     title: "Memory",
     repoLink: "https://github.com/JakeBrowning90/memory-cards-2",
     liveLink: "https://jake-browning-memory-cards-2.netlify.app/",
@@ -77,6 +84,7 @@ const projectsList = [
     desc: "A React card game using a NASA image API. Click each card only once, but watch out: the cards move after every turn and no two games are the same.",
   },
   {
+    id: 7,
     title: "CV Builder",
     repoLink: "https://github.com/JakeBrowning90/cv-application",
     liveLink: "https://jakebrowning-cv-builder.netlify.app/",
@@ -84,6 +92,7 @@ const projectsList = [
     desc: "A React app for building and editing a CV. Collapsable forms allow input for a header, summary, education, and work experience components.",
   },
   {
+    id: 8,
     title: "Battleship",
     repoLink: "https://github.com/JakeBrowning90/battleship",
     liveLink: "https://jakebrowning90.github.io/battleship/",

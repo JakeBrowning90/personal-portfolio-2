@@ -16,7 +16,7 @@ function ProjectsView(
     <div>
       <h1>Projects</h1>
       {projectsList.map((project) => {
-        return <ProjectCard project={project} />;
+        return <ProjectCard key={project.id} project={project} />;
       })}
     </div>
   );
