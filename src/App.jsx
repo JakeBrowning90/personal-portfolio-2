@@ -8,7 +8,7 @@ import Error404View from "./components/Error404View";
 function App() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-dark">
+      <nav className="navbar sticky-top navbar-expand-lg bg-dark">
         <div className="container-fluid collapse navbar-collapse">
           <Link to="/" className="nav-link text-light">
             Home
