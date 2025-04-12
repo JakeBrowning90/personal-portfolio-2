@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-dark">
-        <div className="container-fluid">
+        <div className="container-fluid collapse navbar-collapse">
           <Link to="/" className="nav-link text-light">
             Home
           </Link>

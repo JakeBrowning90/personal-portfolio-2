@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import techStackList from "../techStackList";
+import bootstrapIcon from "../imgs/bootstrap.svg";
 // import apiSource
 
 function HomeView(
@@ -13,7 +15,7 @@ function HomeView(
     <div>
       <h1>Jake Browning</h1>
       <h2>Web Developer</h2>
-      <p>Banner image</p>
+      <p>Hero image</p>
       <p>
         My name is Jake, and I love solving puzzles, simplifying complex
         concepts, and creating beautiful things.
@@ -27,7 +29,10 @@ function HomeView(
         See more of my career experience on LinkedIn and my coding on GitHub.
       </p>
 
-      <p>Tech stack</p>
+      <p>Tech stack (Include icons?)</p>
+      {techStackList.map((icon) => {
+        return <img src={icon} alt="" class="img-thumbnail"/>;
+      })}
     </div>
   );
 }
