@@ -14,25 +14,35 @@ function ContactView(
   // Render
   return (
     <div>
-      <h1>Contact View</h1>
-      <p>
-        Interested in working together? Please email me or connect on any of the
-        listed platforms.
-      </p>
-      <p>
-        Email:{" "}
-        <a href="mailto:jacobbrowning90@gmail.com">jacobbrowning90@gmail.com</a>
-      </p>
+      <div className="px-5 py-5 my-5 text-center shadow-lg">
+        <h1>Contact Me</h1>
+        <p>
+          Interested in working together? Please email me or connect on any of
+          the listed platforms.
+        </p>
+        <p>
+          Email:{" "}
+          <a href="mailto:jacobbrowning90@gmail.com">
+            jacobbrowning90@gmail.com
+          </a>
+        </p>
 
-      <a href="https://www.linkedin.com/in/jacob-browning-4163346a/">
-        <img src={linkedinIcon} alt="linkedin logo" />
-      </a>
-      <a href="https://bsky.app/profile/jakebrowning.bsky.social">
-        <img src={blueskyIcon} alt="bluesky logo" />
-      </a>
-      <a href="https://github.com/JakeBrowning90">
-        <img src={githubIcon} alt="github logo" />
-      </a>
+        <a
+          href="https://www.linkedin.com/in/jacob-browning-4163346a/"
+          className="mx-2"
+        >
+          <img src={linkedinIcon} alt="linkedin logo" />
+        </a>
+        <a
+          href="https://bsky.app/profile/jakebrowning.bsky.social"
+          className="mx-2"
+        >
+          <img src={blueskyIcon} alt="bluesky logo" />
+        </a>
+        <a href="https://github.com/JakeBrowning90" className="mx-2">
+          <img src={githubIcon} alt="github logo" />
+        </a>
+      </div>
     </div>
   );
 }
