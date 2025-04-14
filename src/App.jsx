@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light bg-dark"
+        className="navbar navbar-expand-lg navbar-light bg-dark px-2"
         data-bs-theme="dark"
       >
         <Link to="/" className="nav-link text-light">

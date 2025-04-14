@@ -13,19 +13,19 @@ import reactIcon from "/src/imgs/react.svg";
 import reactrouterIcon from "/src/imgs/reactrouter.svg";
 
 const techStackList = [
-  bootstrapIcon,
-  cssIcon,
-  expressIcon,
-  gitIcon,
-  htmlIcon,
-  javascriptIcon,
-  mongodbIcon,
-  nodejsIcon,
-  postgresqlIcon,
-  prismaIcon,
-  pythonIcon,
   reactIcon,
   reactrouterIcon,
+  expressIcon,
+  nodejsIcon,
+  bootstrapIcon,
+  prismaIcon,
+  postgresqlIcon,
+  mongodbIcon,
+  htmlIcon,
+  cssIcon,
+  javascriptIcon,
+  gitIcon,
+  pythonIcon,
 ];
 
 export default techStackList;
