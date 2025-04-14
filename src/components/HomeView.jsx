@@ -29,14 +29,14 @@ function HomeView(
           See more of my career experience on LinkedIn and my coding on GitHub.
         </p> */}
         <p>
-          Check out the links below to learn more about me, my work, and how
-          to get in touch!
+          Check out the links below to learn more about me, my work, and how to
+          get in touch!
         </p>
         <Link
           to="/about"
           className="mx-1 my-1 px-1 py-1 rounded bg-primary text-light"
         >
-          About Me
+          About
         </Link>
         <Link
           to="/projects"
@@ -52,7 +52,7 @@ function HomeView(
         </Link>
       </div>
 
-      <div className="text-center ">
+      <div className="text-center px-5">
         <h2>Tech stack</h2>
 
         {techStackList.map((icon) => {
