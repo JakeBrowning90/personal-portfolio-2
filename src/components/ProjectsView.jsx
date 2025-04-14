@@ -13,9 +13,9 @@ function ProjectsView(
 
   // Render
   return (
-    <div>
+    <div className="px-5 py-5 ">
       <h1>Projects</h1>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div className="container-fluid row g-2 row-cols-1 row-cols-sm-2 row-cols-md-4">
         {projectsList.map((project) => {
           return <ProjectCard key={project.id} project={project} />;
         })}

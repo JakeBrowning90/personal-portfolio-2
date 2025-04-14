@@ -19,7 +19,7 @@ const projectsList = [
     title: "File Uploader",
     repoLink: "https://github.com/JakeBrowning90/file-uploader",
     liveLink: "https://file-uploader-empty-sun-8023.fly.dev/",
-    thumbnail: "img/fileUploaderThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/fileUploaderThumbnail.jpg",
     desc: "A file hosting app built using Express, Node.js, Prisma ORM, and Cloudinary. Authenticated users can upload files, sort them into custom folders, and search their collection by entry name.",
   },
   //   {
@@ -34,7 +34,7 @@ const projectsList = [
     title: "Music Collection",
     repoLink: "https://github.com/JakeBrowning90/inventory-application-2",
     liveLink: "https://inventory-application-2.fly.dev/",
-    thumbnail: "img/musicAppThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/musicAppThumbnail.jpg",
     desc: "An inventory management app built using Express, Node.js, PostgreSQL, and Cloudinary. Authenticated users can create, update, and delete artists and albums from the database.",
   },
   {
@@ -42,7 +42,7 @@ const projectsList = [
     title: "Messaging App",
     repoLink: "https://github.com/JakeBrowning90/messaging-app-front",
     liveLink: "https://messaging-app.fly.dev/",
-    thumbnail: "img/messagingAppThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/messagingAppThumbnail.jpg",
     desc: "A messaging tool built with the MERN stack (MongoDB, Express, React, Node.js). Create and customize a profile, add other users to your contacts list, and post text messages to your chat history.",
   },
   {
@@ -50,7 +50,7 @@ const projectsList = [
     title: "Map Game",
     repoLink: "https://github.com/JakeBrowning90/wheres-waldo-front",
     liveLink: "https://jakebrowningmapgame.netlify.app/",
-    thumbnail: "img/mapGameThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/mapGameThumbnail.jpg",
     desc: "A quiz game built with the MERN stack. Correctly identify U.S. state capitals, reveal interesting trivia on each play session, and update the database by achieving a top 10 score.",
   },
   {
@@ -58,7 +58,7 @@ const projectsList = [
     title: "Blog API",
     repoLink: "https://github.com/JakeBrowning90/blog-public-frontend",
     liveLink: "https://blog-public-frontend.fly.dev/",
-    thumbnail: "img/blogThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/blogThumbnail.jpg",
     desc: "A MERN blogging app using RESTful API across two front ends. A public site displays posts and comments, and a private site manages post content with a rich text editor. Editing actions are controlled by JWT authentication.",
   },
   //   {
@@ -80,7 +80,7 @@ const projectsList = [
     title: "Memory",
     repoLink: "https://github.com/JakeBrowning90/memory-cards-2",
     liveLink: "https://jake-browning-memory-cards-2.netlify.app/",
-    thumbnail: "img/memory2Thumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/memory2Thumbnail.jpg",
     desc: "A React card game using a NASA image API. Click each card only once, but watch out: the cards move after every turn and no two games are the same.",
   },
   {
@@ -88,7 +88,7 @@ const projectsList = [
     title: "CV Builder",
     repoLink: "https://github.com/JakeBrowning90/cv-application",
     liveLink: "https://jakebrowning-cv-builder.netlify.app/",
-    thumbnail: "img/cvBuilderThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/cvBuilderThumbnail.jpg",
     desc: "A React app for building and editing a CV. Collapsable forms allow input for a header, summary, education, and work experience components.",
   },
   {
@@ -96,7 +96,7 @@ const projectsList = [
     title: "Battleship",
     repoLink: "https://github.com/JakeBrowning90/battleship",
     liveLink: "https://jakebrowning90.github.io/battleship/",
-    thumbnail: "img/battleshipThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/battleshipThumbnail.jpg",
     desc: "The classic board game in JavaScript, playable by 1 or 2 players. Place ships manually or automatically, and be the first to sink the opposing fleet.",
   },
   // {
