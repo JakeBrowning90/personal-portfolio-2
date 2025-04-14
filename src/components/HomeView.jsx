@@ -33,10 +33,15 @@ function HomeView(
         <Link>Contact</Link>
       </div>
 
-      <p>Tech stack</p>
-      {techStackList.map((icon) => {
-        return <img src={icon} alt="" className="mx-1 my-1 rounded" key={icon}/>;
-      })}
+      <div className="text-center">
+        <h2>Tech stack</h2>
+
+        {techStackList.map((icon) => {
+          return (
+            <img src={icon} alt="" className="mx-1 my-1 rounded" key={icon} />
+          );
+        })}
+      </div>
     </div>
   );
 }
