@@ -3,6 +3,7 @@ import { Routes, Route, Link, useNavigate } from "react-router";
 import HomeView from "./components/HomeView";
 import AboutView from "./components/AboutView";
 import ProjectsView from "./components/ProjectsView";
+import ProjectDetail from "./components/ProjectDetail";
 import ContactView from "./components/ContactView";
 import Error404View from "./components/Error404View";
 
@@ -47,8 +48,10 @@ function App() {
           <Route path="/" element={<HomeView />} />
           {/* About */}
           <Route path="/about" element={<AboutView />} />
-          {/* Projects */}
+          {/* Projects Gallery*/}
           <Route path="/projects" element={<ProjectsView />} />
+          {/* Project Detail*/}
+          <Route path="/projects/*" element={<ProjectDetail />} />
           {/* Contact */}
           <Route path="/contact" element={<ContactView />} />
           {/* Error handler */}

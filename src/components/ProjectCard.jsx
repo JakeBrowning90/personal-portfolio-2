@@ -14,12 +14,12 @@ function ProjectCard({ project }) {
     // </div>
     <div className="col">
       <div className="card h-100">
-        <img src={project.thumbnail} alt="" className="card-img-top h-100"/>
+        <img src={project.thumbnail} alt="" className="card-img-top h-100" />
         <div className="card-body">
           <p className="card-title">{project.title}</p>
           {/* <p>{project.desc}</p> */}
-          <a href={project.liveLink}>Live</a>
-          <a href={project.repoLink}>Repo</a>
+            <a href={project.liveLink}>Live</a>
+            <a href={project.repoLink}>Repo</a>
         </div>
       </div>
     </div>
