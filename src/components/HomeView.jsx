@@ -17,23 +17,42 @@ function HomeView(
         <h1>Jake Browning</h1>
         <h2>Web Developer</h2>
         <p>
-          My name is Jake, and I love solving puzzles, simplifying complex
-          concepts, and creating beautiful things.
+          I love solving puzzles, simplifying complex concepts, and creating
+          beautiful things.
         </p>
         {/* <p>
           I started my web development career with an elective course, and have
           since cultivated my skills through IT studies, professional
           networking, and self-teaching with online resources.
         </p> */}
-        <p>
+        {/* <p>
           See more of my career experience on LinkedIn and my coding on GitHub.
+        </p> */}
+        <p>
+          Check out the links below to learn more about me, my work, and how
+          to get in touch!
         </p>
-        <Link>About Me</Link>
-        <Link>Projects</Link>
-        <Link>Contact</Link>
+        <Link
+          to="/about"
+          className="mx-1 my-1 px-1 py-1 rounded bg-primary text-light"
+        >
+          About Me
+        </Link>
+        <Link
+          to="/projects"
+          className="mx-1 my-1 px-1 py-1 rounded bg-primary text-light"
+        >
+          Projects
+        </Link>
+        <Link
+          to="/contact"
+          className="mx-1 my-1 px-1 py-1 rounded bg-primary text-light"
+        >
+          Contact
+        </Link>
       </div>
 
-      <div className="text-center">
+      <div className="text-center ">
         <h2>Tech stack</h2>
 
         {techStackList.map((icon) => {
