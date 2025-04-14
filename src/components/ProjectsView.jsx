@@ -15,9 +15,11 @@ function ProjectsView(
   return (
     <div>
       <h1>Projects</h1>
-      {projectsList.map((project) => {
-        return <ProjectCard key={project.id} project={project} />;
-      })}
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        {projectsList.map((project) => {
+          return <ProjectCard key={project.id} project={project} />;
+        })}
+      </div>
     </div>
   );
 }

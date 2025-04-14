@@ -11,7 +11,7 @@ const projectsList = [
     title: "Board Game Library",
     repoLink: "https://github.com/JakeBrowning90/game-library-public",
     liveLink: "https://game-library-public.fly.dev/",
-    thumbnail: "img/gameLibraryThumbnail.jpg",
+    thumbnail: "/src/imgs/projectThumbnails/gameLibraryThumbnail.jpg",
     desc: "A full-stack PERN app designed as a library for a tabletop gaming café. The JWT-authenticated private site manages the collection and user access, and the public site can search for games using multiple queries.",
   },
   {
