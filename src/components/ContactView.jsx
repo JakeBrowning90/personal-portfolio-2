@@ -22,9 +22,7 @@ function ContactView(
         </p>
         <p>
           Email:{" "}
-          <a href="mailto:jacobbrowning90@gmail.com">
-            jacobbrowning90@gmail.com
-          </a>
+         Have email or just use LinkedIn?
         </p>
 
         <a
