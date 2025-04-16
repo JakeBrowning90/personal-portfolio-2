@@ -42,7 +42,13 @@ function ProjectDetail(
           </a>
         </div>
         <div className="col-10 col-sm-8 col-lg-6">
-          <img src={targetProject.thumbnail} alt="" className="mx-lg-auto img-fluid"/>
+          <img
+            src={targetProject.thumbnail}
+            alt=""
+            className="mx-lg-auto img-fluid"
+            width="700"
+            height="500"
+          />
         </div>
       </div>
     </div>
