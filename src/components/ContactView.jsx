@@ -29,17 +29,23 @@ function ContactView(
 
         <a
           href="https://www.linkedin.com/in/jacob-browning-4163346a/"
+          target="_blank"
           className="mx-2"
         >
           <img src={linkedinIcon} alt="linkedin logo" />
         </a>
         <a
           href="https://bsky.app/profile/jakebrowning.bsky.social"
+          target="_blank"
           className="mx-2"
         >
           <img src={blueskyIcon} alt="bluesky logo" />
         </a>
-        <a href="https://github.com/JakeBrowning90" className="mx-2">
+        <a
+          href="https://github.com/JakeBrowning90"
+          target="_blank"
+          className="mx-2"
+        >
           <img src={githubIcon} alt="github logo" />
         </a>
       </div>

@@ -28,12 +28,14 @@ function ProjectDetail(
 
           <a
             href={targetProject.liveLink}
+            target="_blank"
             className="mx-1 my-1 px-1 py-1 rounded bg-primary text-light"
           >
             Live Site
           </a>
           <a
             href={targetProject.repoLink}
+            target="_blank"
             className="mx-1 my-1 px-1 py-1 rounded bg-primary text-light"
           >
             GitHub Repo
