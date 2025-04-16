@@ -51,7 +51,7 @@ function App() {
           {/* Projects Gallery*/}
           <Route path="/projects" element={<ProjectsView />} />
           {/* Project Detail*/}
-          <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/projects/:id" element={<ProjectDetail/>} />
           {/* Contact */}
           <Route path="/contact" element={<ContactView />} />
           {/* Error handler */}

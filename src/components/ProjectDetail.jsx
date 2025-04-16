@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Link, useParams } from "react-router";
+import projectsList from "../projectList";
 
 // import apiSource
 
@@ -9,15 +10,22 @@ function ProjectDetail(
   }
 ) {
   // State declarations
-  const [project, setProject] = useState("")
   // Functions
-  const { projectId } = useParams();
-  
+  let projectId = useParams();
+  let targetProject = projectsList.find(
+    (project) => project.id == projectId.id
+  );
+
   // Render
   return (
     <div>
+      <Link to="/projects">Back</Link>
       <h1>Project Detail</h1>
-      <p>{projectId}</p>
+      <h1>{targetProject.title}</h1>
+      <p>{targetProject.desc}</p>
+      <p>{targetProject.liveLink}</p>
+      <p>{targetProject.repoLink}</p>
+      <img src={targetProject.thumbnail} alt="" />
     </div>
   );
 }
