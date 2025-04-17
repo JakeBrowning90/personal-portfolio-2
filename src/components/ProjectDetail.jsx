@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { Link, useParams } from "react-router";
-import projectsList from "../projectList";
+import projects from "../projectList";
 
 // import apiSource
 
@@ -12,7 +12,7 @@ function ProjectDetail(
   // State declarations
   // Functions
   let projectId = useParams();
-  let targetProject = projectsList.find(
+  let targetProject = projects.all.find(
     (project) => project.id == projectId.id
   );
 
@@ -22,7 +22,7 @@ function ProjectDetail(
       {/* <h1>Project Detail</h1> */}
       <div className="row flex-leg-row-reverse g-5 py-5">
         <div className="col-lg-6">
-          <Link to="/projects">Back</Link>
+          <Link to="/projects">Back to Projects</Link>
           <h1>{targetProject.title}</h1>
           <p>{targetProject.desc}</p>
 

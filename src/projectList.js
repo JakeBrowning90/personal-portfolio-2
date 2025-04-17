@@ -8,7 +8,34 @@ import memory2Thumbnail from "/src/imgs/projectThumbnails/memory2Thumbnail.jpg";
 import cvBuilderThumbnail from "/src/imgs/projectThumbnails/cvBuilderThumbnail.jpg";
 import battleshipThumbnail from "/src/imgs/projectThumbnails/battleshipThumbnail.jpg";
 
-const projectsList = [
+const featured = [
+  {
+    id: 0,
+    title: "Board Game Library",
+    repoLink: "https://github.com/JakeBrowning90/game-library-public",
+    liveLink: "https://game-library-public.fly.dev/",
+    thumbnail: gameLibraryThumbnail,
+    desc: "A full-stack PERN app designed as a library for a tabletop gaming café. The JWT-authenticated private site manages the collection and user access, and the public site can search for games using multiple queries.",
+  },
+  {
+    id: 1,
+    title: "File Uploader",
+    repoLink: "https://github.com/JakeBrowning90/file-uploader",
+    liveLink: "https://file-uploader-empty-sun-8023.fly.dev/",
+    thumbnail: fileUploaderThumbnail,
+    desc: "A file hosting app built using Express, Node.js, Prisma ORM, and Cloudinary. Authenticated users can upload files, sort them into custom folders, and search their collection by entry name.",
+  },
+  {
+    id: 2,
+    title: "Music Collection",
+    repoLink: "https://github.com/JakeBrowning90/inventory-application-2",
+    liveLink: "https://inventory-application-2.fly.dev/",
+    thumbnail: musicAppThumbnail,
+    desc: "An inventory management app built using Express, Node.js, PostgreSQL, and Cloudinary. Authenticated users can create, update, and delete artists and albums from the database.",
+  },
+];
+
+const all = [
   //   {
   //     title: "",
   //     repoLink: "",
@@ -132,4 +159,4 @@ const projectsList = [
   // },
 ];
 
-export default projectsList;
+export default { featured, all };
